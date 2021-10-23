@@ -10,7 +10,7 @@ import {
 } from "../CompElements";
 import { Slider } from "components/proj/slides/Slider";
 import RMSSlides from "components/proj/slides/compSlides/RMSSlides";
-import Cover from "components/images/comp/compCovers/RMSCover2.png";
+import Cover from "components/images/comp/covers/RMSCover2.png";
 
 export default class ProjRMS extends React.Component {
   state = {

@@ -16,7 +16,7 @@ import { Slider } from "components/proj/slides/Slider";
 import FezMainS from "components/proj/slides/carSlides/FezMainS";
 import Coil from "components/images/cars/fez/FezCoil.jpg";
 import Fender from "components/images/cars/fez/FezFender.jpg";
-import FezBWR from "components/proj/slides/carSlides/fezBW";
+import FezBWR from "components/proj/slides/carSlides/FezBW";
 
 export default class InspectProjFez extends React.Component {
   constructor(props) {

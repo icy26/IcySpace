@@ -10,7 +10,7 @@ import {
 } from "../CompElements";
 import { Slider } from "components/proj/slides/Slider";
 import GameSlides from "components/proj/slides/compSlides/GameSlides";
-import Cover from "components/images/comp/compCovers/GameCover.png";
+import Cover from "components/images/comp/covers/GameCover.png";
 
 export default class ProjGame extends React.Component {
   state = {

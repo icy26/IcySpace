@@ -10,7 +10,7 @@ import {
 } from "../CompElements";
 import { Slider } from "components/proj/slides/Slider";
 import AWDSlides from "components/proj/slides/compSlides/AWDSlides";
-import Cover from "components/images/comp/compCovers/AWDCover.png";
+import Cover from "components/images/comp/covers/AWDCover.png";
 
 export default class ProjAWD extends React.Component {
   state = {

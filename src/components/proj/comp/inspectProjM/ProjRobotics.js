@@ -10,7 +10,7 @@ import {
 } from "../CompElements";
 import { Slider } from "components/proj/slides/Slider";
 import RobotSlides from "components/proj/slides/compSlides/RobotSlides";
-import Cover from "components/images/comp/compCovers/RoboticsCover.png";
+import Cover from "components/images/comp/covers/RoboticsCover.png";
 
 export default class ProjRobotics extends React.Component {
   state = {

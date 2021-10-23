@@ -10,7 +10,7 @@ import {
 } from "../CompElements";
 import { Slider } from "components/proj/slides/Slider";
 import MSTSlides from "components/proj/slides/compSlides/MSTSlides";
-import Cover from "components/images/comp/compCovers/SourcingToolCover.png";
+import Cover from "components/images/comp/covers/SourcingToolCover.png";
 
 export default class ProjSourcingTool extends React.Component {
   state = {
