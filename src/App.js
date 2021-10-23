@@ -1,9 +1,9 @@
 //import "./styles.css";
-import Navbar from "./Components/Navbar";
-import Main from "./Components/Main";
-import Particles from "./Components/Particles";
-import Comp from "./Components/Proj/Comp";
-import Cars from "./Components/Proj/Cars";
+import Navbar from "./components/navbar";
+import Main from "./components/main";
+import Particles from "./components/Particles";
+import Comp from "./components/proj/comp";
+import Cars from "./components/proj/cars";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 export default function App() {
