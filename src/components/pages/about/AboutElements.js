@@ -82,6 +82,29 @@ export const TxtContain = styled.div`
   }
 `;
 
+
+export const PicCont = styled.div`
+  display: none;
+
+  @media only screen and (min-width: 720px) {
+    display: flex;
+    position: absolute;
+    right: 6%;
+    top: 24%;
+    height: 28vw;
+    width: 24vw;
+    /* background-color: white; */
+    border-radius: 30px;
+    overflow: hidden;
+  }
+`
+
+export const AbtPic = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`;
+
 export const Grad2 = styled.div`
   position: absolute;
   background: #000000;

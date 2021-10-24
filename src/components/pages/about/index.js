@@ -6,8 +6,11 @@ import {
   Grad2,
   TxtContain,
   TxtM,
-  TxtD
+  TxtD,
+  PicCont,
+  AbtPic
 } from "./AboutElements";
+import AboutPic from "components/images/extras/aboutpic.jpeg";
 
 const About = () => {
   return (
@@ -94,6 +97,9 @@ const About = () => {
             <div style={{ textAlign: "center" }}>Icy’s Space</div>
           </TxtD>
         </TxtContain>
+        <PicCont>
+          <AbtPic src={AboutPic} />
+        </PicCont>
       </AboutContainer>
     </>
   );

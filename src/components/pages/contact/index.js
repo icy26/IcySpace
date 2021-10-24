@@ -18,10 +18,10 @@ const Contact = () => {
       <ContactContainer id="contact">
         <H3ader>Contact</H3ader>
         <SocialsCont>
-          <Social>
-            <SocialLogo src={Mail} />
-            <SocialDeets>imran.chg@gmail.com</SocialDeets>
-          </Social>
+          {/*<Social>*/}
+          {/*  <SocialLogo src={Mail} />*/}
+          {/*  <SocialDeets>imran.chg@gmail.com</SocialDeets>*/}
+          {/*</Social>*/}
           <Social>
             <SocialLogo src={Phone} />
             <SocialDeets>+44 7873 505522</SocialDeets>
