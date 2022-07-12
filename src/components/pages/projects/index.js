@@ -21,45 +21,32 @@ const Project = () => {
     <>
       <ProjectContainer id={"projects"}>
         <H3ader>PROJECTS</H3ader>
-        <ProjectChooser>
-          {/* Two projects Dev */}
-          <Selectors
-            style={{ borderRadius: "22px 0px 0px 22px", color: "white" }}
-            to="/Comp"
-            onClick={goTop}
-          >
-            <Codepic src={code} />
-          </Selectors>
-          <Selectors
-            style={{ borderRadius: "0px 22px 22px 0px", color: "white" }}
-            to="/Cars"
-            onClick={goTop}
-          >
-            <Carpic src={car} />
-          </Selectors>
-        </ProjectChooser>
-        {/* Three projects FINAL
          <ProjectChooser>
-          <Selectors
-            style={{ borderRadius: "22px 0px 0px 22px", color: "white" }}
-            to="/comp"
-            onClick={goTop}
-          >
-            <Codepic src={code} />
-          </Selectors>
-          <Selectors style={{ color: "white" }} to="/cars" onClick={goTop}>
-            <Carpic src={car} />
-          </Selectors>
-          <Selectors
-            style={{ borderRadius: "0px 22px 22px 0px", color: "white" }}
-            to="/proj"
-            onClick={goTop}
-          >
-            <Otherpic src={other} />
-          </Selectors>
-        </ProjectChooser> */}
-        <Pad id="aboutM" />
-        <Grad />
+             <Selectors
+                 style={{ borderRadius: "22px 0px 0px 22px", color: "white" }}
+                 to="/Comp"
+                 onClick={goTop}
+             >
+                 <Codepic src={code} />
+             </Selectors>
+
+             <Selectors
+                 style={{ borderRadius: "0px 22px 22px 0px", color: "white" }}
+                 to="/Cars"
+                 onClick={goTop}
+             >
+                 <Carpic src={car} />
+             </Selectors>
+             {/*<Selectors*/}
+             {/*    style={{ borderRadius: "0px 22px 22px 0px", color: "white" }}*/}
+             {/*    to="/CV"*/}
+             {/*    onClick={goTop}*/}
+             {/*>*/}
+             {/*    <Carpic src={car} />*/}
+             {/*</Selectors>*/}
+         </ProjectChooser>
+          <Pad id="aboutM" />
+          <Grad />
       </ProjectContainer>
     </>
   );
