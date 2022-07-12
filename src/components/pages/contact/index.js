@@ -7,10 +7,12 @@ import {
   SocialLogo,
   SocialDeets
 } from "./ContactElements";
-import Mail from "components/images/extras/mail.png";
+//import Mail from "components/images/extras/mail.png";
 import Phone from "components/images/extras/phone.png";
 // import Insta from "/src/components/images/extras/insta.png";
 import Lin from "components/images/extras/linkedIN.png";
+import Pdf from "components/images/extras/pdf-icon.png";
+import Fwp from "components/pages/contact/full_work_profile.pdf";
 
 const Contact = () => {
   return (
@@ -38,6 +40,16 @@ const Contact = () => {
               style={{ color: "white", marginLeft: "4vw", fontWeight: "bold" }}
             >
               Imran Chagani
+            </a>
+          </Social>
+          <Social>
+            <SocialLogo src={Pdf} />
+            <a
+                href={Fwp}
+                download
+                style={{ color: "white", marginLeft: "4vw", fontWeight: "bold" }}
+            >
+              Download Full Work Profile
             </a>
           </Social>
         </SocialsCont>
